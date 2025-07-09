@@ -1,3 +1,5 @@
+
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -31,6 +33,7 @@
 
 }
 
+
 /* Nav styles */
 
 .header{
@@ -38,6 +41,8 @@
     background-repeat: no-repeat;
     background-position: right bottom, left;
     background-color: #FFF8F3;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 nav{
     display: flex;
@@ -120,14 +125,19 @@ nav ul li a{
 /* main styles */
 
 main{
-    max width: 1140px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
+
 
 /* about styles */
 .about-me{
-    margin: 130px 230px;
+    margin: 130px auto;
     border-radius: 10px;
     background-color: #FFF8F3;
+    width: 1140px;
+    
+    
     
 }
 .about-details{
@@ -141,8 +151,11 @@ main{
     border-radius: 5px;
     background-color: #f5d7c131;
 }
+.border .border-dt{
+    font-size: 15px;
+}
 .about-details h3{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
     margin: 0;
@@ -161,4 +174,54 @@ main{
 }
 .about-description{
     font-weight: 600;
+}
+
+/* skill styles */
+
+.skill{
+    
+    margin-bottom: 130px;
+    width: 1140px;
+    
+}
+.skill-details{
+    padding: 0;
+}
+.skill-dt1-heading{
+    font-size: 35px;
+    margin: 0;
+}
+.skill-dt1{
+    text-align: center;
+    padding: 0 115px;
+}
+.skill-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    
+}
+.skill-dt1-details{
+    font-size: 18px;
+}
+.skill-card{
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.041);
+    margin-top: 30px;
+    padding: 30px;
+}
+.skill-pic{
+    margin-bottom: 20px;
+}
+.skill-card2{
+    margin: 0
+}
+.skill-heading{
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.skill-description{
+    font-size: 16px;
+    margin-bottom: 30px;
 }
