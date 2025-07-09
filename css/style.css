@@ -31,7 +31,6 @@
 
 }
 
-
 /* Nav styles */
 
 .header{
@@ -116,4 +115,50 @@ nav ul li a{
 .banner-details{
     font-size: 18px;
 
+}
+
+/* main styles */
+
+main{
+    max width: 1140px;
+}
+
+/* about styles */
+.about-me{
+    margin: 130px 230px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    
+}
+.about-details{
+    padding: 130px 156px;
+    
+    
+}
+.border{
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5d7c131;
+}
+.about-details h3{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    
+}
+.about-details p{
+    font-size: 18px;
+    text-align: center;
+}
+.person-details{
+    display: flex;
+    justify-content: space-around;
+}
+.about-items p{
+    margin: 0;
+}
+.about-description{
+    font-weight: 600;
 }
